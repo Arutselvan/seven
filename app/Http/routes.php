@@ -15,6 +15,10 @@ Route::get('/data', function () {
     return view('welcome');
 });
 
+Route::get('/', function () {
+    return view('landing');
+});
+
 Route::group(['middleware'=>'login'] , function() {
 	Route::get('/register', function () {
     	return view('register');

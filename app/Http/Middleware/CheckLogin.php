@@ -17,10 +17,11 @@ class CheckLogin
      */
     public function handle($request, Closure $next)
     {
-        if(Session::has('user_id'))
-            return redirect('/data');
+        if(Session::has('user_id')){
+            return redirect('/data');    
+        }
         else{
-            return redirect('/login');
+            return $next($request);
         }
         
     }

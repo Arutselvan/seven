@@ -26,7 +26,7 @@ function restaurant(id,dist,dur){
 		if(data.status_code == 200)	{
 			$('#name').html(data.message.name);
 			$('#address').html(data.message.address);
-			string = '<iframe src="//www.google.com/maps/embed/v1/place?q='+escape(data.message.address)+'&zoom=17&key=AIzaSyDdI0zok8HSFqCX2iUFK8F6BPa2pNrLTSA"></iframe>';
+			string = '<iframe src="https://google.com/maps/embed/v1/place?q='+escape(data.message.address)+'&zoom=17&key=AIzaSyDdI0zok8HSFqCX2iUFK8F6BPa2pNrLTSA"></iframe>';
 			$('#map').html(string);
 			$('#dur').html(data.message.duration+" mins");
 			$('#dist').html(data.message.distance+" Km");
