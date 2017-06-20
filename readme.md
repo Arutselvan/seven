@@ -1,27 +1,22 @@
-## Laravel PHP Framework
 
-[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
-[![Total Downloads](https://poser.pugx.org/laravel/framework/d/total.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
-[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
+Seven
+=====
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, queueing, and caching.
+Most of the ratings in food review sites are deceiving. Star rating are no more trustable. Our app's aim is to do sentimental and emotional analysis of reviews of restaurants near current location providing insights like frequently used entities. Based on that we generate a sentiment score allowing the user to judge a restaurant based on all the reviews of that particular restaurant using IBM Watson tone analyser api. It also provides insights about most significant entities mentioned in the reviews like the what is best to eat there, what is worst there,etc. Using Google Distance Matrix Api, It will also provide distance and travel time to reach all the nearby restaurants.
 
-Laravel is accessible, yet powerful, providing powerful tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
+----------
 
-## Official Documentation
+#### <i class="icon-cog"></i> **Techonologies & Tools**
+#### <i class="icon-pencil"></i>**PHP** (recursive acronym for PHP: Hypertext Preprocessor) is a widely-used open source general-purpose scripting language that is especially suited for web development and can be embedded into HTML.
+#### <i class="icon-pencil"></i>**Laravel** is a free, open-source PHP web framework, created by Taylor Otwell and intended for the development of web applications following the model–view–controller (MVC) architectural pattern. Some of the features of Laravel are a modular packaging system with a dedicated dependency manager, different ways for accessing relational databases, utilities that aid in application deployment and maintenance, and its orientation toward syntactic sugar.
 
-Documentation for the framework can be found on the [Laravel website](http://laravel.com/docs).
+----------
 
-## Contributing
+#### <i class="icon-briefcase"></i> **API Resource**
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
+ * **Restaurant API :** Thirukkural is a simple quotes service. The original Thirukkural is a collection of 1330 Tamil couplets that discuss various aspects of life. The service provides Thirukkural in native Tamil language with English translations. The API allows users to send queries to fetch kurals based on a number of specified parameters including the number of the kural to return. It uses RESTful calls and responses are formatted in XML and JSON.
+ * **IBM Watson tone analyser API :** The IBM Watson™ Tone Analyzer service uses linguistic analysis to detect communication tones in written text. Use the Tone Analyzer service to understand conversations and communications, and then respond to customers appropriately at scale.
+ * **Google Distance Matrix API :** The Google Maps Distance Matrix API returns information based on the recommended route between start and end points, as calculated by the Google Maps API, and consists of rows containing duration and distance values for each pair. This service does not return detailed route information. Route information can be obtained by passing the desired single origin and destination to the Google Maps Directions API.
 
-## Security Vulnerabilities
+----------
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
-
-### License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
