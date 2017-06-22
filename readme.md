@@ -14,7 +14,7 @@ Most of the ratings in food review sites are deceiving. Star rating are no more 
 
 #### <i class="icon-briefcase"></i> **API Resource**
 
- * **Restaurant API :** Thirukkural is a simple quotes service. The original Thirukkural is a collection of 1330 Tamil couplets that discuss various aspects of life. The service provides Thirukkural in native Tamil language with English translations. The API allows users to send queries to fetch kurals based on a number of specified parameters including the number of the kural to return. It uses RESTful calls and responses are formatted in XML and JSON.
+ * **Zomato API :** Zomato APIs give you access to the freshest and most exhaustive information for over 1.5 million restaurants across 10,000 cities globally.
  * **IBM Watson tone analyser API :** The IBM Watson™ Tone Analyzer service uses linguistic analysis to detect communication tones in written text. Use the Tone Analyzer service to understand conversations and communications, and then respond to customers appropriately at scale.
  * **Google Distance Matrix API :** The Google Maps Distance Matrix API returns information based on the recommended route between start and end points, as calculated by the Google Maps API, and consists of rows containing duration and distance values for each pair. This service does not return detailed route information. Route information can be obtained by passing the desired single origin and destination to the Google Maps Directions API.
 
