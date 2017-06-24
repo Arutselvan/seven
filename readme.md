@@ -2,7 +2,7 @@
 Seven
 =====
 
-Most of the ratings in food review sites are deceiving. Star rating are no more trustable. Our app's aim is to do sentimental and emotional analysis of reviews of restaurants near current location providing insights like frequently used entities. Based on that we generate a sentiment score allowing the user to judge a restaurant based on all the reviews of that particular restaurant using IBM Watson tone analyser api. It also provides insights about most significant entities mentioned in the reviews like the what is best to eat there, what is worst there,etc. Using Google Distance Matrix Api, It will also provide distance and travel time to reach all the nearby restaurants.
+Most of the ratings in food review sites are deceiving. Star ratings are no more trustable. Our app's aim is to do sentimental and emotional analysis of reviews of restaurants near current location providing insights like frequently used entities. Based on that we generate a sentiment score allowing the user to judge a restaurant based on all the reviews of that particular restaurant using IBM Watson tone analyser api. It also provides insights about most significant entities mentioned in the reviews like the what is best to eat there, what is worst there,etc. Using Google Distance Matrix Api, It will also provide distance and travel time to reach all the nearby restaurants.
 
 ----------
 
@@ -20,3 +20,7 @@ Most of the ratings in food review sites are deceiving. Star rating are no more 
 
 ----------
 
+#### <i class="icon-briefcase"></i> **Screenshots**
+
+![alt text](https://image.ibb.co/inijv5/Screenshot_from_2017_06_24_15_48_43.png)
+![alt text](https://image.ibb.co/iK7Ba5/Screenshot_from_2017_06_24_15_49_58.png)
