@@ -12,14 +12,6 @@ Most of the ratings in food review sites are deceiving. Star ratings are no more
 
 ----------
 
-#### <i class="icon-briefcase"></i> **API Resource**
-
- * **Zomato API :** Zomato APIs give you access to the freshest and most exhaustive information for over 1.5 million restaurants across 10,000 cities globally.
- * **IBM Watson tone analyser API :** The IBM Watson™ Tone Analyzer service uses linguistic analysis to detect communication tones in written text. Use the Tone Analyzer service to understand conversations and communications, and then respond to customers appropriately at scale.
- * **Google Distance Matrix API :** The Google Maps Distance Matrix API returns information based on the recommended route between start and end points, as calculated by the Google Maps API, and consists of rows containing duration and distance values for each pair. This service does not return detailed route information. Route information can be obtained by passing the desired single origin and destination to the Google Maps Directions API.
-
-----------
-
 #### <i class="icon-briefcase"></i> **Screenshots**
 
 ![alt text](https://image.ibb.co/inijv5/Screenshot_from_2017_06_24_15_48_43.png)
